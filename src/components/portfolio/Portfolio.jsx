@@ -3,7 +3,7 @@ import './portfolio.css'
 import IMG1 from '../../assets/portfolio1.jpg'
 import IMG2 from '../../assets/portfolio2.jpg'
 import IMG3 from '../../assets/portfolio3.jpg'
-import IMG4 from '../../assets/portfolio4.jpg'
+import IMG4 from '../../assets/portfolio4.jpeg'
 import IMG5 from '../../assets/portfolio5.png'
 import IMG6 from '../../assets/portfolio6.jpg'
 
@@ -11,45 +11,47 @@ const data=[
   {
     id:1,
     image:IMG1,
-    title:'first project',
-    github:'https://github.com',
-    demo:"https://github.com"
+    title:'Human Resource Management System',
+    github:'https://github.com/Ajaygawli/HRMS',
+    demo:"https://sage-fudge-6a3b6d.netlify.app/"
   },
   {
     id:2,
-    image:IMG2,
-    title:'first project',
-    github:'https://github.com',
-    demo:"https://github.com"
+    image:IMG4,
+    title:'E-Commerce Application',
+    github:'https://github.com/Ajaygawli/E-commerce-website',
+    // demo:"https://github.com"
   },
   {
     id:3,
     image:IMG3,
-    title:'first project',
-    github:'https://github.com',
-    demo:"https://github.com"
+    title:'New Application',
+    github:'https://github.com/Ajaygawli/NewsApp',
+    demo:""
   },
+
+
   {
     id:4,
-    image:IMG4,
-    title:'first project',
-    github:'https://github.com',
-    demo:"https://github.com"
+    image:IMG2,
+    title:'Html-CSS-JavaScript Interpreter',
+    github:'https://github.com/Ajaygawli/Live-HTML-CSS-javascript-Interpreter',
+    demo:"https://ajaygawli.github.io/Live-HTML-CSS-javascript-Interpreter/"
   },
-  {
-    id:5,
-    image:IMG5,
-    title:'first project',
-    github:'https://github.com',
-    demo:"https://github.com"
-  },
-  {
-    id:6,
-    image:IMG6,
-    title:'first project',
-    github:'https://github.com',
-    demo:"https://github.com"
-  }
+  // {
+  //   id:5,
+  //   image:IMG5,
+  //   title:'first project',
+  //   github:'https://github.com',
+  //   demo:"https://github.com"
+  // },
+  // {
+  //   id:6,
+  //   image:IMG6,
+  //   title:'first project',
+  //   github:'https://github.com',
+  //   demo:"https://github.com"
+  // }
 ]
 const Portfolio = () => {
   

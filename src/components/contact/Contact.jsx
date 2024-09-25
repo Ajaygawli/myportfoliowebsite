@@ -1,9 +1,11 @@
-import React from 'react'
+import React, { useRef } from 'react'
 import './contact.css'
 import {MdOutlineEmail} from 'react-icons/md'
 import { FaLinkedin } from "react-icons/fa";
 import { FaWhatsapp } from "react-icons/fa";
+
 const Contact = () => {
+  
   return (
     <section id='contact'>
      <h5>Get In Touch</h5>
@@ -36,11 +38,11 @@ const Contact = () => {
       </div>
 
       {/* end of contact option */}
-      <form action="">
+      <form action='https://formsubmit.co/e395a7aab8566c07a21e754749a4e3da' method='POST'>
         <input type="text" name='name' placeholder='Your Full Name' required />
         <input type="email" name='email' placeholder='Your Email' required />
         <textarea name="message" id="" placeholder='Your Message' required></textarea>
-     <button className='btn btn-primary'> Send Message</button>
+     <button className='btn btn-primary' type='submit'> Send Message</button>
       </form>
      </div>
     </section>

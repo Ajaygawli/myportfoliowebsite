@@ -24,7 +24,7 @@ const About = () => {
           <article className='about__card'>
             <FaAward className='about__icon'/>
             <h5>Experience</h5>
-            <small> 2 Months</small>
+            <small> 1+ Years</small>
           </article>
 
           <article className='about__card'>
@@ -41,8 +41,9 @@ const About = () => {
 
          
         </div>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. A neque aut exercitationem placeat! Debitis obcaecati repudiandae enim eaque. Ab laborum harum quam cupiditate distinctio, dolore fugiat libero debitis sed veritatis, illo rem.
-          </p>
+<p>🚀 Full Stack Developer | Java | MERN Stack | React.js | Node.js | Spring Boot
+
+Hello! I'm Ajay Gawli, a versatile Full Stack Developer with hands-on experience in building scalable, secure, and efficient web applications. With a strong foundation in Java, React.js, Node.js, and the MERN stack, I specialize in developing everything from eCommerce platforms to Customer Relationship Management (CRM) systems.          </p>
 
           <a href="#contact" className='btn btn-primary'> Let's Talk</a>
       </div>
